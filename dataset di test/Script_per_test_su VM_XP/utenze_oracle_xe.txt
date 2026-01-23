@@ -1,0 +1,22 @@
+sys
+sysdba
+
+test
+test
+(usabile per test generali)
+
+use1
+user1
+
+test_be1
+test_be1
+
+
+test_be2
+test_be2
+(utente usato anche per test be3)
+
+test_aeb1
+test_aeb1
+
+non esiste utenza per aeb0
