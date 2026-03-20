@@ -1,0 +1,20 @@
+-- 1. Creo il login a livello server master
+CREATE LOGIN mario_login 
+WITH PASSWORD = 'PasswordSicura123!';
+
+-- 2. Entro nel database
+USE VenditeDB;
+GO
+
+-- 3. Creo l’utente nel database
+CREATE USER mario_user 
+FOR LOGIN mario_login;
+
+-- 4. Assegno i permessi (solo lettura)
+ALTER ROLE db_datareader 
+ADD MEMBER mario_user;
+
+
+db_datareader	Può leggere tutte le tabelle
+db_datawriter	Può inserire/modificare/eliminare
+db_owner		Controllo totale sul database
