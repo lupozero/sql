@@ -6,6 +6,7 @@ WHERE c.citta = 'Milano';
 
 
 
-CREATE INDEX idx_ordini_cliente ON ordini(id_cliente);
+CREATE INDEX idx_cliente_citta  ON clienti(citta);
 
-drop INDEX idx_ordini_cliente ;
+drop index idx_cliente_citta;
+

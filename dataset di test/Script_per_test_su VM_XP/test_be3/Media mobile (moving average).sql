@@ -3,5 +3,5 @@
            PARTITION BY cliente
            ORDER BY data_vendita
            ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
-       ) AS media_mobile_3
+       ) AS media_mobile_su finestra_a_3
 FROM vendite;

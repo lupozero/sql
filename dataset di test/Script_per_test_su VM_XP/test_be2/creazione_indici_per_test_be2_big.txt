@@ -1,0 +1,18 @@
+/* Formatted on 2/18/2026 10:21:12 AM (QP5 v5.252.13127.32847) */
+CREATE INDEX idx_clienti_citta
+   ON clienti (citta);
+
+CREATE INDEX idx_ordini_cliente
+   ON ordini (id_cliente);
+
+CREATE INDEX idx_ordini_data
+   ON ordini (data_ordine);
+
+CREATE INDEX idx_dettaglio_ordine
+   ON dettaglio_ordini (id_ordine);
+   
+   
+drop index idx_clienti_citta  ; 
+drop index idx_ordini_cliente;
+drop index idx_ordini_data;
+drop index idx_dettaglio_ordine;
