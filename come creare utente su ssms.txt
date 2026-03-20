@@ -1,6 +1,6 @@
 -- 1. Creo il login a livello server master
 CREATE LOGIN mario_login 
-WITH PASSWORD = 'PasswordSicura123!';
+WITH PASSWORD = 'NuovaPasswordSicura123!';
 
 -- 2. Entro nel database
 USE VenditeDB;
