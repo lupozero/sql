@@ -1,0 +1,9 @@
+INSERT INTO payments (payment_id, customer_id, payment_date, amount, method) VALUES
+(5001, 1, DATE '2024-01-10', 1598.00, 'CARD'),
+(5002, 1, DATE '2024-02-15',  129.00, 'PAYPAL'),
+(5003, 2, DATE '2024-02-20',  899.00, 'CARD'),
+(5004, 3, DATE '2024-03-01',  399.00, 'BANK_TRANSFER'),
+(5005, 4, DATE '2024-03-10', 1499.00, 'CARD'),
+(5006, 5, DATE '2024-03-12',   59.00, 'CARD'),
+(5007, 8, DATE '2024-03-20',  899.00, 'PAYPAL'),
+(5008,10, DATE '2024-03-25',  199.00, 'CARD');
